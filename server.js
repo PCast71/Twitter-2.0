@@ -15,7 +15,7 @@ const thoughtRoutes = require('./routes/thoughtRoutes');
 app.use('/api/users', userRoutes);
 app.use('/api/thoughts', thoughtRoutes);
 
-mongoose.connect(proceses.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
