@@ -13,28 +13,22 @@ This is a simple social network API built with Node.js, Express, and MongoDB usi
   - [Friends](#friends)
   - [Reactions](#reactions)
 - [Testing with Insomnia](#testing-with-insomnia)
+  - [Example Requests in Insomnia](#example-requests-in-insomnia)
+    - [GET All Users](#get-all-users)
+    - [POST Create a New User](#post-create-a-new-user)
+    - [PUT Update a User](#put-update-a-user)
+    - [DELETE a User](#delete-a-user)
+    - [GET All Thoughts](#get-all-thoughts)
+    - [POST Create a New Thought](#post-create-a-new-thought)
+    - [PUT Update a Thought](#put-update-a-thought)
+    - [DELETE a Thought](#delete-a-thought)
+    - [POST Add a Friend to a User](#post-add-a-friend-to-a-user)
+    - [DELETE Remove a Friend from a User](#delete-remove-a-friend-from-a-user)
+- [License](#license)
 
 ## Installation
 
 1. Clone the repository:
    ```sh
-   git clone git@github.com:PCast71/Twitter-2.0.git
+   git clone https://github.com/yourusername/social-network-api.git
    cd social-network-api
-
-
-Install dependencies:
-
-sh
-Copy code
-npm install
-Create a .env file in the root directory and add your MongoDB URI:
-
-bash
-Copy code
-MONGODB_URI=mongodb://localhost:27017/socialnetwork
-PORT=3000
-Start the server:
-
-sh
-Copy code
-npm run dev
